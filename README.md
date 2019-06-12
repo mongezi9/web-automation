@@ -50,7 +50,7 @@ And at the end it will generate test results.
 
     > The JDK software is installed on your computer, for example, at C:\Program Files\Java\jdk1.6.0_02. You can move   the JDK software to another location if desired.
 
-    > Set JAVA_HOME:
+    > Set `JAVA_HOME`:
 
     > Right click My Computer and select Properties.
 
@@ -65,30 +65,30 @@ And at the end it will generate test results.
 
     > The JDK software is installed on your computer, for example, at /usr/jdk/jdk1.6.0_02. You can change this location.
 
-    > Set JAVA_HOME.
+    > Set `JAVA_HOME`.
 
     > Korn and bash shells:
 
-    > export JAVA_HOME=jdk-install-dir
-    > export PATH=$JAVA_HOME/bin:$PATH
+    ` export JAVA_HOME=jdk-install-dir`
+    ` export PATH=$JAVA_HOME/bin:$PATH`
     > Bourne shell:
 
-    > JAVA_HOME=jdk-install-dir
-    > export JAVA_HOME
-    > PATH=$JAVA_HOME/bin:$PATH
-    > export PATH
+    ` JAVA_HOME=jdk-install-dir`
+    ` export JAVA_HOME`
+    ` PATH=$JAVA_HOME/bin:$PATH`
+    ` export PATH`
     > C shell:
 
-    > setenv JAVA_HOME jdk-install-dir
-    > setenv PATH $JAVA_HOME/bin:$PATH
-    > export PATH=$JAVA_HOME/bin:$PATH
+    ` setenv JAVA_HOME jdk-install-dir`
+    ` setenv PATH $JAVA_HOME/bin:$PATH`
+    ` export PATH=$JAVA_HOME/bin:$PATH`
 
 #### How to run
 change directory to the root of the project and execute the follwing:
 
-> 1. `npm install`
-> 2. `npm run webdriver-update`
-> 3. `npm run test` - this will run tests in both **chrome** and **firefox** then report will be generated at `./test-results/TestResult.html`
+     1. `npm install`
+     2. `npm run webdriver-update`
+     3. `npm run test` - this will run tests in both **chrome** and **firefox** then report will be generated at `./test-results/TestResult.html`
 
 
 
