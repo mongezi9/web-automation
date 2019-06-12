@@ -1,0 +1,56 @@
+End to end test suite:
+
+* As a user I can navigate to a Website'
+    Steps:
+    1. Goto url: https://www.ultimateqa.com/automation/
+    2. Validate the url title | expected: Utlimate QA
+
+* As a user I can Maximize Browser Window
+    Steps:
+    1. Goto url: https://www.ultimateqa.com/automation/
+    2. Get current window size as 'OlderWindowSize' 
+    3. Maximize screen 
+    4. Get current window size as 'NewWindowSize' 
+    5. Perform validate: is 'NewWindowSize' > OlderWindowSize
+   
+* As a user I can login to the page via "Login automation" link
+    Steps:
+    1. Goto url: https://www.ultimateqa.com/automation/
+    2. Click 'Login automation'
+    3. Login pages shows
+    4. Enter 'email address' on email text field
+    5. Enter 'password address' on password text field
+    6. Click 'Sign In button'
+    7. Validate that the success message shows, as "Signed in successfully."
+
+* As a user I can logout from page
+    Steps:
+    1. Goto url: https://www.ultimateqa.com/automation/
+    2. Click 'Login automation', session still active, "already logged in"
+    3. Click 'MyAccount'
+    4. Click 'Sign Out'
+    5. Validate that user was signed out, Sign In button will show
+
+* As a user I can able to "fill out forms" click submit action
+    Steps:
+    1. Goto url: https://www.ultimateqa.com/automation/
+    2. Click "Fill out forms"
+    3. Navigated to fill out form
+    //first form
+    4. Enter text on "name"
+    5. Enter text on "message"
+    6. Click "Submit"
+    7. Validate that message "Form filled out successfully" shows
+    //second form
+    4. Enter text on "name"
+    5. Enter text on "message"
+    6. get label, convert to integers, sum it up, and Enter sum on text field
+    7. Click "Submit"
+    7. Validate that message "Success" shows
+
+* As a user I can able to browse to "Fake Pricing Page" and Purchase the Basic package
+    Steps:
+    1. Goto url: https://www.ultimateqa.com/automation/
+    2. Click "Fake Pricing Page"
+    3. Fake priceing page shows
+    4. Click "Basic Purchase"
