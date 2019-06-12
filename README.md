@@ -1,5 +1,5 @@
 #### Intro
-This is a nodejs automation test application, it uses a Protractor. It will test against [ultimateqa](https://www.ultimateqa.com/automation/) on chrome and firefox.
+This is a nodejs automation test framework, it uses a Protractor. It will test against [ultimateqa](https://www.ultimateqa.com/automation/) on chrome and firefox.
 And at the end it will generate test results.
 
 #### Pre requisite 
