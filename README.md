@@ -86,9 +86,9 @@ And at the end it will generate test results.
 #### How to run
 change directory to the root of the project and execute the follwing:
 
-     1. `npm install`
-     2. `npm run webdriver-update`
-     3. `npm run test` - this will run tests in both **chrome** and **firefox** then report will be generated at `./test-results/TestResult.html`
+  1. `npm install`
+  2. `npm run webdriver-update`
+  3. `npm run test` - this will run tests in both **chrome** and **firefox** then report will be generated at `./test-results/TestResult.html`
 
 
 
