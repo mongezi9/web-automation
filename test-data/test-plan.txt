@@ -42,11 +42,11 @@ End to end test suite:
     6. Click "Submit"
     7. Validate that message "Form filled out successfully" shows
     //second form
-    4. Enter text on "name"
-    5. Enter text on "message"
-    6. get label, convert to integers, sum it up, and Enter sum on text field
-    7. Click "Submit"
-    7. Validate that message "Success" shows
+    8. Enter text on "name"
+    9. Enter text on "message"
+    10. get label, convert to integers, sum it up, and Enter sum on text field
+    11. Click "Submit"
+    12. Validate that message "Success" shows
 
 * As a user I can able to browse to "Fake Pricing Page" and Purchase the Basic package
     Steps:
