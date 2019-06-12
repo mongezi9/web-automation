@@ -89,6 +89,9 @@ change directory to the root of the project and execute the follwing:
   1. `npm install`
   2. `npm run webdriver-update`
   3. `npm run test` - this will run tests in both **chrome** and **firefox** then report will be generated at `./test-results/TestResult.html`
+  
+  `TestResult.html`
+  > <img width="1671" alt="Screen Shot 2019-06-12 at 01 01 46" src="https://user-images.githubusercontent.com/44766109/59333371-78ebad00-8cf8-11e9-8550-5dfd46a2edb9.png">
 
 
 
