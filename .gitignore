@@ -7,3 +7,5 @@ test-results/
 downloads/*
 
 log/*
+
+.DS_Store
