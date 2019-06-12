@@ -13,7 +13,7 @@ And at the end it will generate test results.
 
 #### How to Install
 * Typscript
-    * *npm install -g typescript*
+    * `npm install -g typescript`
 * Nodejs
     [Download NodeJs here](https://nodejs.org/en/)
 
