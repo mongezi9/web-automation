@@ -5,9 +5,7 @@ var HtmlReporter = require('protractor-beautiful-reporter');
 exports.config = {
     directConnect: true,
     multiCapabilities: [{
-        'browserName': data.test_data.browser[0], //this configures a chrome
-    }, {
-        'browserName': data.test_data.browser[1], //this configures a firefox
+        'browserName': process.env.ENV
     }],
 framework: 'jasmine2',
     specs: ['./tests/testcases.spec.js'],
